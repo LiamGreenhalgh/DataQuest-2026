@@ -229,7 +229,7 @@ def main() -> None:
 
     # Train or load cached model
     if os.path.isfile(MODEL_FILE) and os.path.isfile(SCALER_FILE):
-        answer = input("A saved model was found. Retrain? [y/N]: ").strip().lower()
+        answer = input("A saved model was found. Retrain? [y/n]: ").strip().lower()
         if answer == "y":
             print("\nTraining neural network …")
             model, scaler = build_and_train(X, y)

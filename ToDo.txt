@@ -1,0 +1,2 @@
+divide percentages by retention type
+re-clean data
