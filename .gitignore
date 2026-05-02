@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# Generated model / scaler files
+neural_network_model.pkl
+neural_network_scaler.pkl
+
+# Generated plot images
+correlation_plot.png
+neural_network_training.png
